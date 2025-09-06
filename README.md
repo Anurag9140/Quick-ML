@@ -1,94 +1,56 @@
 # Quick-ML
 
-Quick ML – Automated Machine Learning & EDA Platform
+# 🚀 Quick ML – Automated Machine Learning & EDA Platform  
 
-🚀 From Data Upload to Insights in Minutes
+> ⚡ *From Data Upload to Insights in Minutes*  
 
-Quick ML is an end-to-end data science platform that automates machine learning (AutoML), exploratory data analysis (AutoEDA), and enables AI-powered interaction with your dataset.
+Quick ML is an **end-to-end data science platform** that automates:  
+- 🤖 **AutoML** → Build, train & evaluate ML models automatically  
+- 📊 **AutoEDA** → One-click statistical & visual insights  
+- 💬 **Talk with Data** → Chat with your dataset using AI-powered Q&A  
 
-🔥 Features
+---
 
-🤖 AutoML – Build, train, and evaluate ML models automatically.
+## 🏆 Features  
+✔️ **AutoML** – End-to-end ML pipeline with best model selection  
+✔️ **AutoEDA** – Summary stats, missing values, plots, correlations  
+✔️ **Talk with Data** – Ask natural language questions to your dataset  
 
-📊 AutoEDA – Generate comprehensive statistical & visual insights in one click.
+---
 
-💬 Talk with Data – Ask questions in natural language and interact with your dataset.
+## 📌 Supported Models  
 
-📌 Supported Models
+### 🔹 Regression  
+- Linear Regression  
+- Ridge Regression  
+- Lasso Regression  
+- Random Forest Regressor 🌲  
+- Gradient Boosting Regressor 🌟  
+- XGBoost Regressor ⚡  
 
-Regression:
+### 🔹 Classification  
+- Logistic Regression  
+- Random Forest Classifier 🌲  
+- Support Vector Machine (SVM) 🔗  
+- XGBoost Classifier ⚡  
 
-Linear Regression
+---
 
-Ridge Regression
+## ⚙️ How to Use  
 
-Lasso Regression
+```bash
+# Clone this repository
+git clone https://github.com/your-username/QuickML.git
 
-Random Forest Regressor
+# Navigate to project folder
+cd QuickML
 
-Gradient Boosting Regressor
+# Install dependencies
+pip install -r requirements.txt
 
-XGBoost Regressor
-
-Classification:
-
-Logistic Regression
-
-Random Forest Classifier
-
-Support Vector Machine (SVM)
-
-XGBoost Classifier
-
-⚙️ How to Use
-
-Run the app:
-
+# Run Streamlit app
 streamlit run app.py
 
 
-Select your task from the sidebar (AutoML / AutoEDA / Talk with Data).
-
-Upload your dataset (CSV/Excel).
-
-Follow the interactive steps to generate insights and models.
-
-🛠️ Tech Stack
-
-Frontend: Streamlit
-
-Backend: Python
-
-Libraries: Pandas, NumPy, Scikit-learn, XGBoost, Matplotlib, Seaborn
-
-AI Layer: NLP model for dataset chat
-
-📈 Workflow
-
-📂 Upload Data → 🔍 Auto EDA → 🤖 Auto ML → 💬 Talk with Data → 📊 Insights
-
-🎯 Use Cases
-
-Rapid prototyping for ML projects
-
-Business analysts exploring sales/finance datasets
-
-Students & researchers running quick experiments
-
-Decision-makers needing fast insights without coding
-
-🚀 Future Scope
-
-Add Deep Learning support
-
-Deploy as Cloud SaaS
-
-Integrate with real-time data streams
-
-Connect with BI dashboards
-
-👨‍💻 Author
-
-Anurag Verma
-🎓 B.Sc. Computer Science & Data Analytics – IIT Patna
-📌 Data Science | ML | AI | NLP
+flowchart LR
+A[📂 Upload Data] --> B[🔍 Auto EDA] --> C[🤖 Auto ML] --> D[💬 Talk with Data] --> E[📊 Insights]

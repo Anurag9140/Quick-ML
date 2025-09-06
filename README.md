@@ -36,21 +36,34 @@ Quick ML is an **end-to-end data science platform** that automates:
 
 ---
 
-## ⚙️ How to Use  
 
-```bash
-# Clone this repository
-git clone https://github.com/your-username/QuickML.git
-
-# Navigate to project folder
-cd QuickML
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run Streamlit app
-streamlit run app.py
 
 
 flowchart LR
 A[📂 Upload Data] --> B[🔍 Auto EDA] --> C[🤖 Auto ML] --> D[💬 Talk with Data] --> E[📊 Insights]
+
+🎯 Use Cases
+
+📊 Business analysts → Explore sales/finance datasets
+
+🎓 Students/Researchers → Run quick ML experiments
+
+👨‍💻 Data scientists → Rapid prototyping
+
+🏢 Decision-makers → Get fast insights without coding
+
+🚀 Future Scope
+
+🧠 Add Deep Learning models (ANN, CNN, RNN)
+
+☁️ Deploy as Cloud SaaS platform
+
+📡 Real-time data streaming support
+
+📊 Integration with BI dashboards (PowerBI, Tableau)
+
+👨‍💻 Author
+
+Anurag Verma
+🎓 B.Sc. Computer Science & Data Analytics – IIT Patna
+📌 Data Science | ML | AI | NLP
